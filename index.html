@@ -22,7 +22,7 @@
 width: 100%;
 height: 100%;
 display: grid;
-grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+grid-template-columns: repeat(auto-fill,minmax(49.4vw, 1fr));
 }
 .item {
 background-color: #ffffff;
@@ -35,6 +35,9 @@ width: 49.4vw;
   /* For mobile phones: */
   [class="item"] {
     width: 99.4vw;
+  }
+  [class="flex-container"] {
+  grid-template-columns: repeat(auto-fill,minmax(49.4vw, 1fr));
   }
 }
 </style>

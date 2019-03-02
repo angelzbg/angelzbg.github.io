@@ -22,17 +22,21 @@
 width: 100%;
 height: 100%;
 display: grid;
-grid-template-columns: repeat(auto-fill,minmax(49.4vw, 1fr));
+grid-template-columns: repeat(auto-fill,minmax(40vw, 1fr));
 }
 .item {
 background-color: #ffffff;
 border-radius: 2vw;
 box-shadow: 0 0.2vw 0.2vw #888888;
 margin: 0.3vw;
+width: 40vw;
+height: 20vw;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class="item"] {
+  width: 99.4vw;
+  height: 49.7vw;
   }
   [class="flex-container"] {
   grid-template-columns: repeat(auto-fill,minmax(99.4vw, 1fr));
